@@ -1,0 +1,30 @@
+.flex
+{
+    display: flex;
+}
+
+.flex-clm{
+    flex-direction: column;
+}
+
+.grid
+{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.padding
+{
+    padding: 10px;
+}
+.padding-left{
+    padding-left: 20px;
+}
+
+.hover-colour{
+    transition-duration: 0.4s;
+}
+.hover-colour:hover{
+    background-color: rgb(241 156 156);
+}
