@@ -1,3 +1,20 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    min-width: 100%;
+    height: 100%;
+}
+
+.left-pane{
+    max-width: 18vw;
+}
+
+button{
+    border-style: solid;
+}
+
 input:focus-visible {
     outline: none;
 }
@@ -5,6 +22,7 @@ input:focus-visible {
     height: 10vh;
     width: auto;
 }
+
 
 #search-bar{
     border-style: solid;
@@ -17,7 +35,7 @@ input:focus-visible {
 #search {
     border-color: rgb(240, 80, 80);
     border-width: 2px;
-    border-left: 0 white;
+    border-left: 1px rgb(241 156 156);
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     background-color:rgb(241 156 156);
@@ -25,8 +43,8 @@ input:focus-visible {
 }
 
 .voice{
-    margin-left: 10px;
-    border: solid white;
+    margin-left: 2px;
+    border-style: none;
     background-color: white;
     border-radius: 50px;
     padding-left: 10px;
@@ -36,6 +54,42 @@ input:focus-visible {
 }
 .bi-mic-fill{
     opacity: 0.7;
+}
+
+.sign-in{
+    border-radius: 40px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    padding-right: 10px;
+    margin-left: auto;
+}
+.sign-in svg
+{
+    margin-right: 10px;
+}
+
+.group
+{
+    width: 75vw;
+}
+
+.menu-buttons{
+    justify-content: space-between;
+}
+
+.next{
+    border-color: #2c7ff9;
+    border-radius: 40px;
+    background-color: #2c7ff9;
+    color: white;
+    opacity: 0.7;
+    padding: 4px 9px 6px;
+}
+
+.pos{
+    position: absolute;
+    right: 14px;
+    top: 70px;
 }
 
 .body img{

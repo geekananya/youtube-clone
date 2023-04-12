@@ -7,11 +7,21 @@
     flex-direction: column;
 }
 
+.start{
+    justify-content: flex-start;
+}
+
 .grid
 {
     display: grid;
+}
+.windo{
+    grid-template-columns: 1fr 4fr;
+}
+
+.tbnl{
     gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
 .padding
@@ -22,9 +32,19 @@
     padding-left: 20px;
 }
 
+.no-wrap{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* .btn-check{
+    display: inline-block;
+} */
+
 .hover-colour{
     transition-duration: 0.4s;
 }
 .hover-colour:hover{
     background-color: rgb(241 156 156);
+    border-color: rgb(241 156 156);
 }
